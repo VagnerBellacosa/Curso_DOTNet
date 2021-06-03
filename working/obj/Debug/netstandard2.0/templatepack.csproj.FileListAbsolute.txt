@@ -1,0 +1,9 @@
+C:\Workspace\Curso_DOTNet\working\bin\Debug\netstandard2.0\templatepack.deps.json
+C:\Workspace\Curso_DOTNet\working\bin\Debug\netstandard2.0\templatepack.dll
+C:\Workspace\Curso_DOTNet\working\bin\Debug\netstandard2.0\templatepack.pdb
+C:\Workspace\Curso_DOTNet\working\obj\Debug\netstandard2.0\templatepack.csprojAssemblyReference.cache
+C:\Workspace\Curso_DOTNet\working\obj\Debug\netstandard2.0\templatepack.AssemblyInfoInputs.cache
+C:\Workspace\Curso_DOTNet\working\obj\Debug\netstandard2.0\templatepack.AssemblyInfo.cs
+C:\Workspace\Curso_DOTNet\working\obj\Debug\netstandard2.0\templatepack.csproj.CoreCompileInputs.cache
+C:\Workspace\Curso_DOTNet\working\obj\Debug\netstandard2.0\templatepack.dll
+C:\Workspace\Curso_DOTNet\working\obj\Debug\netstandard2.0\templatepack.pdb

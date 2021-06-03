@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ov4iiCopoYeLw8zao+NW3wg03MM/AADwKMpIiIzB+30mxd1wUIdRdfWBJxf5QuWHVvV9LrR2IbssUmYO8urWjg==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\Curso_DOTNet\\working\\templatepack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Compaq\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Compaq\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
