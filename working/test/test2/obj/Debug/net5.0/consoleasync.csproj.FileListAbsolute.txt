@@ -1,0 +1,16 @@
+C:\Workspace\Curso_DOTNet\working\test\test2\bin\Debug\net5.0\consoleasync.exe
+C:\Workspace\Curso_DOTNet\working\test\test2\bin\Debug\net5.0\consoleasync.deps.json
+C:\Workspace\Curso_DOTNet\working\test\test2\bin\Debug\net5.0\consoleasync.runtimeconfig.json
+C:\Workspace\Curso_DOTNet\working\test\test2\bin\Debug\net5.0\consoleasync.runtimeconfig.dev.json
+C:\Workspace\Curso_DOTNet\working\test\test2\bin\Debug\net5.0\consoleasync.dll
+C:\Workspace\Curso_DOTNet\working\test\test2\bin\Debug\net5.0\ref\consoleasync.dll
+C:\Workspace\Curso_DOTNet\working\test\test2\bin\Debug\net5.0\consoleasync.pdb
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.csprojAssemblyReference.cache
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.AssemblyInfoInputs.cache
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.AssemblyInfo.cs
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.csproj.CoreCompileInputs.cache
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.dll
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\ref\consoleasync.dll
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.pdb
+C:\Workspace\Curso_DOTNet\working\test\test2\obj\Debug\net5.0\consoleasync.genruntimeconfig.cache
