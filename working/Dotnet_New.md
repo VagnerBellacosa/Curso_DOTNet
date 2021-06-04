@@ -23,9 +23,9 @@ O comando chama o mecanismo de modelo para criar os artefatos em disco com base 
 
 ## Restauração implícita
 
-Você não precisa executar *dotnet restore* o porque ele é executado implicitamente por todos os comandos que exigem a ocorrência de uma restauração, como,,,, dotnet new dotnet build dotnet run dotnet test dotnet publish e dotnet pack . Para desabilitar a restauração implícita, use a --no-restore opção.
+Você não precisa executar *dotnet restore* o porque ele é executado implicitamente por todos os comandos que exigem a ocorrência de uma restauração, como,,,, *dotnet new* *dotnet build* *dotnet run* *dotnet test* *dotnet publish* e *dotnet pack* . Para desabilitar a restauração implícita, use a **--no-restore** opção.
 
-O dotnet restore comando ainda é útil em determinados cenários em que a restauração explícita faz sentido, como compilações de integração contínua em Azure DevOps Services ou em sistemas de compilação que precisam controlar explicitamente quando a restauração ocorre.
+O *dotnet restore* comando ainda é útil em determinados cenários em que a restauração explícita faz sentido, como compilações de integração contínua em Azure DevOps Services ou em sistemas de compilação que precisam controlar explicitamente quando a restauração ocorre.
 
 Para obter informações sobre como gerenciar feeds do NuGet, consulte a dotnet restore documentação.
 
