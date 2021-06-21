@@ -1,78 +1,83 @@
 # Chocolatey
 
 ## Utilizando Chocolatey para Windows
+
 ##### Daniel Padua Ferreira
 
-### IntroduÁ„o
+### Introdu√ß√£o
 
-Bom, vamos comeÁar pela pergunta b·sica: "O que seria o Chocolatey?" Assim como a pergunta a resposta È bem direta: "… um gerenciador de pacotes desenvolvido para Windows".
+Bom, vamos come√ßar pela pergunta b√°sica: "O que seria o Chocolatey?" Assim como a pergunta a resposta √© bem direta: "√© um gerenciador de pacotes desenvolvido para Windows".
 
-Sim, agora (nem t„o agora pois j· vem rolando desde antes de 2014 minimamente) temos um gerenciador de pacotes para Windows nos moldes do apt-get ou yum para Linux ou o Homebrew para Mac. E o assim como nos mencionados, podemos utiliz·-lo em ferramentas automaÁ„o de infraestrutura (ou infraestrutura como cÛdigo) como o Puppet, Chef e Ansible
+Sim, agora (nem t√£o agora pois j√£ vem rolando desde antes de 2014 minimamente) temos um gerenciador de pacotes para Windows nos moldes do apt-get ou yum para Linux ou o Homebrew para Mac. E o assim como nos mencionados, podemos utiliz√°-lo em ferramentas automa√ß√£o de infraestrutura (ou infraestrutura como c√≥digo) como o Puppet, Chef e Ansible
 
-Neste guia irei mostrar o b·sico para comeÁar a utilizar o Chocolatey, como instalaÁ„o e principais comandos para manipulaÁ„o de pacotes.
+Neste guia irei mostrar o b√°sico para come√ßar a utilizar o Chocolatey, como instala√ß√£o e principais comandos para manipula√ß√£o de pacotes.
 
-## PrÈ-Requisitos
+## Pr√©-Requisitos
 
 - Windows 7 ou superior / Windows Server 2003 ou superior
 - Powershell v2 ou superior
-- .NET Framework 4 ou superior (a instalaÁ„o do Chocolatey ir· tentar instalar esta dependÍncia caso vocÍ n„o possua)
+- .NET Framework 4 ou superior (a instala√ß√£o do Chocolatey ir√° tentar instalar esta depend√™ncia caso voc√™ n√£o possua)
 
-### InstalaÁ„o
+### Instala√ß√£o
 
-Primeiramente È necess·rio executar o Powershell ou o Cmd em modo administrador, para isto pesquise por Powershell ou Cmd no Menu Iniciar, clique com o bot„o direito e selecione Executar como administrador.
+Primeiramente √© necess√°rio executar o Powershell ou o Cmd em modo administrador, para isto pesquise por Powershell ou Cmd no Menu Iniciar, clique com o bot√£o direito e selecione Executar como administrador.
 
 Para Powershell utilize a linha de comando:
+
 ...
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ...
 
 Para Cmd utilize a linha de comando:
+
 ...
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ...
 
-### UtilizaÁ„o
+### Utiliza√ß√£o
 
-E pronto, a instalaÁ„o È apenas isto. Agora vamos aos comandos b·sicos para manipular os pacotes:
+E pronto, a instala√ß√£o √© apenas isto. Agora vamos aos comandos b√°sicos para manipular os pacotes:
 
-Pesquisar pacotes choco search <nome aproximado do pacote> ou visite https://chocolatey.org e pesquise
+Pesquisar pacotes choco search <nome aproximado do pacote> ou visite <https://chocolatey.org> e pesquise
 
 Listar pacotes instalados
+
 ...
 choco list --local-only
 ...
 
-### InstalaÁ„o de pacotes
+### Instala√ß√£o de pacotes
 
 ...
 choco install <nome do pacote>
 ...
 
-obs.: Utilize -y caso deseje ignorar as confirmaÁıes
+obs.: Utilize -y caso deseje ignorar as confirma√ß√µes
 
-### RemoÁ„o de pacotes
+### Remo√ß√£o de pacotes
 
 ...
 choco uninstall <nome do pacote>
 ...
 
-obs.: Utilize -y caso deseje ignorar as confirmaÁıes
+obs.: Utilize -y caso deseje ignorar as confirma√ß√µes
 
-### AtualizaÁ„o de pacotes
+### Atualiza√ß√£o de pacotes
 
 ...
 choco upgrade <nome do pacote>
 ...
 
 para atualizar todos os pacotes use:
+
 ...
 choco upgrade all
 ...
 
-obs.: Utilize -y caso deseje ignorar as confirmaÁıes
+obs.: Utilize -y caso deseje ignorar as confirma√ß√µes
 
-## Conclus„o
+## Conclus√£o
 
-O Chocolatey veio pra facilitar a vida dos usu·rios de Windows e principalmente dos administradores. E tambÈm tornou mais vi·vel a utilizaÁ„o de ambientes windows para esteiras devops.
+O Chocolatey veio para facilitar a vida dos usu√°rios de Windows e principalmente dos administradores. E tamb√©m tornou mais vi√°vel a utiliza√ß√£o de ambientes windows para esteiras devops.
 
 [Artigo original](https://medium.com/danielpadua/utilizando-chocolatey-para-windows-2b51c0ba9b31)
